@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="marubatsu.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="marubatsu.js"></script>
+  <script type="text/javascript">
+    var page = location.search.substring(1);
+    document.write('<script type="text/javascript" src="table' + page + '.js"><\/script>');
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <title>一問一答　問題集</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var num = 1;
+  </script>
+
+  <div id="container">
+    <!---------------------------------------------------------------------->
+    <div id="header">
+      <script type="text/javascript">
+        document.write("Question " + num);
+      </script>
+    </div>
+    <!---------------------------------------------------------------------->
+    <div id="contents">
+      <div id="question">
+        <script type="text/javascript">
+          displayQuestion(num);
+        </script>
+      </div>
+      <div id="button">
+        <img class="img_button" src="mark_maru.png" alt="maru" onclick="marubatsu(num, 'm');">
+        <img class="img_button" src="mark_batsu.png" alt="batsu" onclick="marubatsu(num, 'b');">
+      </div>
+      <div id="tof">
+      </div>
+      <div id="answer">
+        <script type="text/javascript">
+          document.write(num);
+        </script>
+      </div>
+    </div>
+    <!---------------------------------------------------------------------->
+    <div id="footer">
+      <ul class="footer_ul">
+        <li id="back" onclick="num = back(num)">← BACK</li>
+        <li id="home" onclick="num = home()">HOME</li>
+        <li id="next" onclick="num = next(num)">NEXT →</li>
+      </ul>
+    </div>
+    <!---------------------------------------------------------------------->
+  </div>
+
+  <script type="text/javascript">
+  next(0);
+  </script>
+</body>
+</html>
