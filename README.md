@@ -1,2 +1,2 @@
 # marubatsu
-marubatsu
+marubatsu app.
