@@ -21,12 +21,13 @@ html, body {
 #header {
   width: 100%;
   height: 60px;
-  background-color: #7b5544;
   text-align: center;
   line-height: 60px;
   font-family: sans-serif;
   font-size: 20px;
-  color: #f5deb3;
+  color: #fff;
+  background: linear-gradient(#4074e8, #67ceff);
+  //background-color: #7b5544;
 }
 
 #contents {
@@ -38,9 +39,10 @@ html, body {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #7b5544;
   font-family: sans-serif;
-  color: #f5deb3;
+  color: #fff;
+  background: linear-gradient(#67ceff, #4074e8);
+  //background-color: #7b5544;
 }
 
 /* ---------------------------------------------------------------------- */
