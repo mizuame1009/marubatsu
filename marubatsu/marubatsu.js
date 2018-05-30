@@ -3,9 +3,9 @@ function marubatsu(num, kotae){
   var objAnswer  = document.getElementById('answer');
   var objTOF = document.getElementById('tof');
   if(kotae == seitou[num]){
-    objTOF.innerHTML = '<div onclick="num = next(num)">正解</div>';
+    objTOF.innerHTML = '<div class="true" onclick="num = next(num)">正解</div>';
   } else{
-    objTOF.innerHTML = '<div onclick="num = next(num)">不正解</div>';
+    objTOF.innerHTML = '<div class="false" onclick="num = next(num)">不正解</div>';
   }
   objButton.style.display = "none";
   objTOF.style.display = "block";

@@ -76,6 +76,22 @@ html, body {
   font-size: 54px;
 }
 
+#tof .true{
+  color:#c80713;
+  text-shadow: 2px 2px 0px #ddd,
+              -2px 2px 0px #ddd,
+               2px -2px 0px #ddd,
+              -2px -2px 0px #ddd;
+}
+
+#tof .false{
+  color:#0733cf;
+  text-shadow: 2px 2px 0px #ddd,
+              -2px 2px 0px #ddd,
+               2px -2px 0px #ddd,
+              -2px -2px 0px #ddd;
+}
+
 #answer {
   padding: 10px;
   overflow-y: scroll;
