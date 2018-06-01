@@ -9,7 +9,11 @@ function marubatsu(num, kotae){
   }
   objButton.style.display = "none";
   objTOF.style.display = "block";
-  objAnswer.innerHTML = kaitou[num];
+  if(seitou[num] == 'm'){
+    objAnswer.innerHTML = "正解：" + "&#9711" + "<br>" + kaitou[num];
+  } else{
+    objAnswer.innerHTML = "正解：" + "&#x2715" + "<br>" + kaitou[num];
+  }
   objAnswer.style.display = "block";
 }
 
