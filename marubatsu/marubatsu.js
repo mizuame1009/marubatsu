@@ -36,8 +36,9 @@ function next(num){
   return num;
 }
 
-function home(num){
-  location.href = "../workbook.html";
+function home(){
+  window.open('about:blank','_self').close();
+  // location.href = "../landing/index.html";
 }
 
 function back(num){
