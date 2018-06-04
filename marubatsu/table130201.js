@@ -1,4 +1,4 @@
-var num_max = 100;
+var num_max = 38;
 var mondai = [];
 var seitou = [];
 var kaitou = [];
@@ -95,310 +95,62 @@ mondai[23] = "パーキンソン病は、黒質から線条体へ至るドパミ
 seitou[23] = 'b';
 kaitou[23] = "ドパミン作動性神経が障害され、その機能が低下することで発病し、相対的にコリン作動性神経が優位になる。";
 
-mondai[24] = "";
-seitou[24] = '';
-kaitou[24] = "";
+mondai[24] = "ブロモクリプチンはドパミンD<sub>2</sub>受容体に対するアンタゴニストであり、パーキンソン病治療薬として用いられる。";
+seitou[24] = 'b';
+kaitou[24] = "ブロモクリプチンは、D<sub>2</sub>受容体アゴニストである。";
 
-mondai[25] = "";
-seitou[25] = '';
+mondai[25] = "セレギリンは、B型モノアミン酸化酵素(MAO<sub>B</sub>)阻害薬であり、レボドパの効果を増強する。";
+seitou[25] = 'm';
 kaitou[25] = "";
 
-mondai[26] = "";
-seitou[26] = '';
-kaitou[26] = "";
+mondai[26] = "アルツハイマー型認知症治療薬として、アセチルコリンエステラーゼ賦活作用のあるドネペジルが臨床使用されている。";
+seitou[26] = 'b';
+kaitou[26] = "ドネペジルは、アセチルコリンエステラーゼ阻害薬である。";
 
-mondai[27] = "";
-seitou[27] = '';
+mondai[27] = "ドネペジルには、記憶や認知機能障害の進行を遅らせる効果が期待できる。";
+seitou[27] = 'm';
 kaitou[27] = "";
 
-mondai[28] = "";
-seitou[28] = '';
-kaitou[28] = "";
+mondai[28] = "統合失調症の症状は、感情の平坦化・自閉などの陽性症状と、思考障害・妄想・幻覚などの陰性症状に大別される。";
+seitou[28] = 'b';
+kaitou[28] = "陰性症状と陽性症状の説明が逆である。";
 
-mondai[29] = "";
-seitou[29] = '';
+mondai[29] = "定型抗精神病薬は、主に陽性症状を改善する。";
+seitou[29] = 'm';
 kaitou[29] = "";
 
-mondai[30] = "";
-seitou[30] = '';
-kaitou[30] = "";
+mondai[30] = "フェノチアジン系抗精神病薬には、強力なドパミンD<sub>2</sub>受容体刺激作用がある。";
+seitou[30] = 'b';
+kaitou[30] = "D<sub>2</sub>受容体遮断作用がある。";
 
-mondai[31] = "";
-seitou[31] = '';
+mondai[31] = "フルフェナジンは、アドレナリンα<sub>1</sub>受容体遮断作用を有し、副作用として起立性低血圧をおこすことがある。";
+seitou[31] = 'm';
 kaitou[31] = "";
 
-mondai[32] = "";
-seitou[32] = '';
+mondai[32] = "クロルプロマジンは、黒質-線条体系ドパミンD<sub>2</sub>受容体遮断作用により、錐体外路障害を生じる。";
+seitou[32] = 'm';
 kaitou[32] = "";
 
-mondai[33] = "";
-seitou[33] = '';
+mondai[33] = "オランザピンは、ドパミン受容体以外の受容体にも高い親和性をもつので、多元受容体標的化抗精神病薬(MARTA: multi-acting receptor targeted antipsychotics)とよばれる。";
+seitou[33] = 'm';
 kaitou[33] = "";
 
-mondai[34] = "";
-seitou[34] = '';
+mondai[34] = "炭酸リチウムは、そう病の治療に用いられる。";
+seitou[34] = 'm';
 kaitou[34] = "";
 
-mondai[35] = "";
-seitou[35] = '';
-kaitou[35] = "";
+mondai[35] = "ミアンセリンは、シナプス前膜のアドレナリンα<sub>2</sub>受容体刺激作用を有する。";
+seitou[35] = 'b';
+kaitou[35] = "α<sub>2</sub>受容体遮断作用を有する。";
 
-mondai[36] = "";
-seitou[36] = '';
+mondai[36] = "パロキセチンは、選択的にセロトニンの再取り込みを阻害するため、SSRI(selective serotonin reuptake inhibitors)とよばれる。";
+seitou[36] = 'm';
 kaitou[36] = "";
 
-mondai[37] = "";
-seitou[37] = '';
-kaitou[37] = "";
+mondai[37] = "ミルナシプランは、ノルアドレナリンとドパミンの再取り込み阻害作用をもつ。";
+seitou[37] = 'b';
+kaitou[37] = "ノルアドレナリン再取り込み阻害作用とセロトニン再取り込み阻害作用があり、SNRI(serotonin-noradrenaline reuptake inhibitors)とよばれる。";
 
-mondai[38] = "";
-seitou[38] = '';
-kaitou[38] = "";
-
-mondai[39] = "";
-seitou[39] = '';
-kaitou[39] = "";
-
-mondai[40] = "";
-seitou[40] = '';
-kaitou[40] = "";
-
-mondai[41] = "";
-seitou[41] = '';
-kaitou[41] = "";
-
-mondai[42] = "";
-seitou[42] = '';
-kaitou[42] = "";
-
-mondai[43] = "";
-seitou[43] = '';
-kaitou[43] = "";
-
-mondai[44] = "";
-seitou[44] = '';
-kaitou[44] = "";
-
-mondai[45] = "";
-seitou[45] = '';
-kaitou[45] = "";
-
-mondai[46] = "";
-seitou[46] = '';
-kaitou[46] = "";
-
-mondai[47] = "";
-seitou[47] = '';
-kaitou[47] = "";
-
-mondai[48] = "";
-seitou[48] = '';
-kaitou[48] = "";
-
-mondai[49] = "";
-seitou[49] = '';
-kaitou[49] = "";
-
-mondai[50] = "";
-seitou[50] = '';
-kaitou[50] = "";
-
-mondai[51] = "";
-seitou[51] = '';
-kaitou[51] = "";
-
-mondai[52] = "";
-seitou[52] = '';
-kaitou[52] = "";
-
-mondai[53] = "";
-seitou[53] = '';
-kaitou[53] = "";
-
-mondai[54] = "";
-seitou[54] = '';
-kaitou[54] = "";
-
-mondai[55] = "";
-seitou[55] = '';
-kaitou[55] = "";
-
-mondai[56] = "";
-seitou[56] = '';
-kaitou[56] = "";
-
-mondai[57] = "";
-seitou[57] = '';
-kaitou[57] = "";
-
-mondai[58] = "";
-seitou[58] = '';
-kaitou[58] = "";
-
-mondai[59] = "";
-seitou[59] = '';
-kaitou[59] = "";
-
-mondai[60] = "";
-seitou[60] = '';
-kaitou[60] = "";
-
-mondai[61] = "";
-seitou[61] = '';
-kaitou[61] = "";
-
-mondai[62] = "";
-seitou[62] = '';
-kaitou[62] = "";
-
-mondai[63] = "";
-seitou[63] = '';
-kaitou[63] = "";
-
-mondai[64] = "";
-seitou[64] = '';
-kaitou[64] = "";
-
-mondai[65] = "";
-seitou[65] = '';
-kaitou[65] = "";
-
-mondai[66] = "";
-seitou[66] = '';
-kaitou[66] = "";
-
-mondai[67] = "";
-seitou[67] = '';
-kaitou[67] = "";
-
-mondai[68] = "";
-seitou[68] = '';
-kaitou[68] = "";
-
-mondai[69] = "";
-seitou[69] = '';
-kaitou[69] = "";
-
-mondai[70] = "";
-seitou[70] = '';
-kaitou[70] = "";
-
-mondai[71] = "";
-seitou[71] = '';
-kaitou[71] = "";
-
-mondai[72] = "";
-seitou[72] = '';
-kaitou[72] = "";
-
-mondai[73] = "";
-seitou[73] = '';
-kaitou[73] = "";
-
-mondai[74] = "";
-seitou[74] = '';
-kaitou[74] = "";
-
-mondai[75] = "";
-seitou[75] = '';
-kaitou[75] = "";
-
-mondai[76] = "";
-seitou[76] = '';
-kaitou[76] = "";
-
-mondai[77] = "";
-seitou[77] = '';
-kaitou[77] = "";
-
-mondai[78] = "";
-seitou[78] = '';
-kaitou[78] = "";
-
-mondai[79] = "";
-seitou[79] = '';
-kaitou[79] = "";
-
-mondai[80] = "";
-seitou[80] = '';
-kaitou[80] = "";
-
-mondai[81] = "";
-seitou[81] = '';
-kaitou[81] = "";
-
-mondai[82] = "";
-seitou[82] = '';
-kaitou[82] = "";
-
-mondai[83] = "";
-seitou[83] = '';
-kaitou[83] = "";
-
-mondai[84] = "";
-seitou[84] = '';
-kaitou[84] = "";
-
-mondai[85] = "";
-seitou[85] = '';
-kaitou[85] = "";
-
-mondai[86] = "";
-seitou[86] = '';
-kaitou[86] = "";
-
-mondai[87] = "";
-seitou[87] = '';
-kaitou[87] = "";
-
-mondai[88] = "";
-seitou[88] = '';
-kaitou[88] = "";
-
-mondai[89] = "";
-seitou[89] = '';
-kaitou[89] = "";
-
-mondai[90] = "";
-seitou[90] = '';
-kaitou[90] = "";
-
-mondai[91] = "";
-seitou[91] = '';
-kaitou[91] = "";
-
-mondai[92] = "";
-seitou[92] = '';
-kaitou[92] = "";
-
-mondai[93] = "";
-seitou[93] = '';
-kaitou[93] = "";
-
-mondai[94] = "";
-seitou[94] = '';
-kaitou[94] = "";
-
-mondai[95] = "";
-seitou[95] = '';
-kaitou[95] = "";
-
-mondai[96] = "";
-seitou[96] = '';
-kaitou[96] = "";
-
-mondai[97] = "";
-seitou[97] = '';
-kaitou[97] = "";
-
-mondai[98] = "";
-seitou[98] = '';
-kaitou[98] = "";
-
-mondai[99] = "";
-seitou[99] = '';
-kaitou[99] = "";
-
-mondai[100] = "";
-seitou[100] = '';
-kaitou[100] = "";
+mondai[38] = "タンドスピロンは、脳内のセロトニン5-HT<sub>3</sub>受容体に選択的に作用して抗不安作用を示す。";
+seitou[38] = 'b';
+kaitou[38] = "脳内の5-HT<sub>1A</sub>受容体を刺激することで作用を発現する。";
