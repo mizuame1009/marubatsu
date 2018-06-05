@@ -1,4 +1,4 @@
-var num_max = 100;
+var num_max = 6;
 var mondai = [];
 var seitou = [];
 var kaitou = [];
