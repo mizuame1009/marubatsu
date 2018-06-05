@@ -19,7 +19,8 @@ function marubatsu(num, kotae){
 
 function next(num){
   if(num==num_max){
-    window.open('about:blank','_self').close();
+    // window.open('about:blank','_self').close();
+    location.href = "../index.html";
   } else{
   num++;
   }
@@ -37,8 +38,8 @@ function next(num){
 }
 
 function home(){
-  window.open('about:blank','_self').close();
-  // location.href = "../landing/index.html";
+  // window.open('about:blank','_self').close();
+  location.href = "../index.html";
 }
 
 function back(num){
@@ -57,4 +58,9 @@ function back(num){
   objTOF.style.display = "none";
   objAnswer.style.display = "none";
   return num;
+}
+
+function jump(tag){
+  var str = "marubatsu/marubatsu.html?" + tag;
+  location.href = str;
 }
